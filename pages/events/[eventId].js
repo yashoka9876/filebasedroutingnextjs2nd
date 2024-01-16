@@ -12,7 +12,7 @@ function EventDetailPage(){
     const eventId = router.query.eventId;
     const event = getEventById(eventId); 
     if(!event){
-        return <ErrorAlert>No event found</p>
+        return <ErrorAlert>No event found</ErrorAlert>
     }
 
     return (
